@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(186, 186, 209);
+}
+#fixedheader {font-family: 'Trebuchet MS';
+    background-color: aqua;
+
+}
+#fixedfoother{
+    font-family: 'Trebuchet MS';
+    background-color: aqua
+}
+p{
+    color: yellowgreen;
+    font-style: italic;
+    font-family: 'Trebuchet MS';
+    
+
+}
+
+div {
+    font-size: 25px;
+    font-style: oblique;
+    font-family: 'Gill Sans';
+}
+
+body {
+    background-color: blueviolet;
+}
+
+table {
+    font-size: 25px;
+}
+
+.details{ font-size: 12px;
+
+}
