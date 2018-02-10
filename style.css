@@ -1,36 +1,49 @@
 h1 {
-    color: rgb(186, 186, 209);
+  color: rgb(186, 186, 209);
 }
-#fixedheader {font-family: 'Trebuchet MS';
-    background-color: aqua;
-
+#fixedheader {
+  font-family: "Trebuchet MS";
+  background-color: aqua;
 }
-#fixedfoother{
-    font-family: 'Trebuchet MS';
-    background-color: aqua
+#fixedfoother {
+  font-family: "Trebuchet MS";
+  background-color: aqua;
 }
-p{
-    color: yellowgreen;
-    font-style: italic;
-    font-family: 'Trebuchet MS';
-    
-
+p {
+  color: yellowgreen;
+  font-style: italic;
+  font-family: "Trebuchet MS";
 }
 
 div {
-    font-size: 25px;
-    font-style: oblique;
-    font-family: 'Gill Sans';
+  font-size: 20px;
+  font-style: oblique;
+  font-family: "Gill Sans";
 }
 
 body {
-    background-color: blueviolet;
+  background-color: blueviolet;
 }
 
 table {
-    font-size: 25px;
+  font-size: 20px;
 }
 
-.details{ font-size: 12px;
+.details {
+  font-size: 13px;
+}
 
+.tour-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.tour
+{
+  flex: 1
+}
+
+.tour-featured
+{
+  flex: 2
 }
